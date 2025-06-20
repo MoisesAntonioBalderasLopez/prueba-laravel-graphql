@@ -20,15 +20,14 @@ Este proyecto es una prueba técnica desarrollada en **Laravel 11** utilizando e
 
 ---
 
- Instalar dependencias PHP:
+ # Instalar dependencias PHP:
 composer install
 
-Acceso a GraphQL
+# Acceso a GraphQL
 El endpoint de la API GraphQL está disponible en:
 
-bash
-Copiar
-Editar
+# bash
+
 http://localhost:8000/graphql
 Se puede probar usando herramientas como:
 
@@ -38,8 +37,8 @@ Insomnia o Postman (soportan GraphQL)
 
 Laravel GraphQL Playground (si fue instalado)
 
-Descripción de la API
-Entidades principales:
+# Descripción de la API
+## Entidades principales:
 Categories
 
 id
@@ -64,13 +63,13 @@ category_id
 
 timestamps
 
-Relaciones: pertenece a una categoría.
+## Relaciones: pertenece a una categoría.
+ 
+## Funcionalidad GraphQL implementada:
+## Queries:
+## categories: Lista de categorías con sus productos.
 
-Funcionalidad GraphQL implementada:
-Queries:
-categories: Lista de categorías con sus productos.
-
-products: Lista de productos con su categoría.
+## products: Lista de productos con su categoría.
 
 Mutations:
 createCategory
@@ -83,8 +82,8 @@ updateProduct
 
 deleteProduct
 
-Pruebas Unitarias
-Se implementaron pruebas automatizadas para validar:
+# Pruebas Unitarias
+## Se implementaron pruebas automatizadas para validar:
 
 Creación de categorías
 
