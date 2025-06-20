@@ -101,3 +101,14 @@ Para ejecutar los tests:
 
 bash
 php artisan test
+
+# Instalacion de playground
+composer require mll-lab/laravel-graphql-playground
+Luego publica los assets:
+
+
+php artisan vendor:publish --tag=graphql-playground-assets
+Ahora sí podrás acceder a:
+
+
+http://localhost:8000/graphql-playground
